@@ -1,0 +1,290 @@
+body {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+ul {
+    margin-left: auto;
+    vertical-align: top;
+    display: inline;
+    width: 50%; 
+    width: 80%;
+  }
+
+li {
+    display: inline;
+    padding: 8px;
+  }
+
+.myLogo { 
+    align-items: left; 
+  }
+
+.herotitle {
+    width: 80%;
+    height: 500px;
+    padding-left: 10%;
+    padding-right: 20%;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+.about { 
+    width: 80%;
+    height: 50%;
+    padding-left: 10%;
+    padding-right: 20%;
+    align-items: center;
+    padding-bottom: 20px;
+}
+
+h4 {
+    font-size: 80px;
+    position: absolute;
+    top: 150px;
+   }
+
+h5 {
+      font-size: 80px;
+  }
+
+h1 {
+    font-size: 50px;
+  }
+
+h2 {
+    font-size: 40px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+h3{
+    font-size: 40px;
+    text-align: left;
+    padding-left: 20px;
+  }
+
+p {
+    font-size: 25px;
+    text-align: left;
+    padding-left: 20px;
+    
+  }
+
+.grid-container1 { 
+    display: grid;
+    grid-template-columns: 25% 65%;
+    grid-gap: 100px;
+    width: 80%;
+    height: 600px;
+    padding-left: 10%;
+    padding-right: 20%;
+    align-items: center;
+    padding-top: 20px; 
+  } 
+
+.grid-container1 > div {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;   
+  }
+
+img { 
+width: 215px;
+height: 400px;
+  }
+
+.grid-container2 { 
+    display: grid;
+    grid-template-columns: 25% 65%;
+    grid-gap: 100px;
+    width: 80%;
+    height: 600px;
+    padding-left: 10%;
+    padding-right: 20%;
+    align-items: center;
+    padding-top: 15%; 
+}
+
+.grid-container2 { 
+    display: grid;
+    grid-template-columns: 25% 65%;
+    grid-gap: 100px;
+    width: 80%;
+    height: 600px;
+    padding-left: 10%;
+    padding-right: 20%;
+    align-items: center;
+    padding-top: 15%; 
+}
+
+.grid-container2 > div {
+    text-align: left;
+    padding: 20px 0;
+    font-size: 30px;
+}
+
+.button {
+    background-color: #EECEC8;
+    border-radius: none;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+footer {
+        display: flex;
+        align-items: right;
+        justify-content: space-between;
+        margin-left: 10%;
+        margin-right: 10%;
+  }
+.mySkills {
+    width: 80%;
+    height: 500px;
+    padding-left: 10%;
+    padding-right: 20%;
+    align-items: center;
+    padding-top: 50px;
+    
+}
+.flexcontainer {
+    display: flex;
+}
+.flexChildren1 {
+    float: left;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    color: black
+}
+
+.flexChildren2 {
+    float: left;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    color: black
+}
+
+.flexChildren3 {
+    float: left;
+    width: 30%;
+    background-color: white;
+    text-align: center;
+    color: black; 
+}
+
+input[type=text], select, textarea {
+    width: 55%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    align-items: center;
+  }
+  
+input[type=submit] {
+    align-content: center;
+    background-color: #EECEC8;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 100%;
+    align-items: center;
+  }
+  
+input[type=submit]:hover {
+   
+    align-items: center;
+  }
+  
+.container {
+    border-radius: 5px;
+    background-color: #FCEDEC;
+    padding: 20px;
+    align-items: center;
+  }
+
+.name1 {
+    text-align: center;
+}
+
+
+
+
+.heart {
+    position: relative;
+    top: 220px;
+    left: 5px;
+    width: 40px;
+    height: 40px;
+}
+
+.lightning {
+    position: relative;
+    top: 250px;
+    left: 1045px;
+    width: 30px;
+    height: 45px;
+}
+
+.star{
+    position: relative;
+    top: 130px;
+    left: 650px;
+    width: 40px;
+    height: 40px;
+}
+
+.talk {
+position: relative;
+top: 390px;
+left: 170px;
+width: 330px;
+height: 200px;
+}
+.intro {
+    padding-top: 270px;
+
+}
+
+.headshot {
+    width: 400px;
+    height: 400px;
+    padding-right: 100px;
+   
+}
+
+.grid-container4 {
+    display: grid;
+    grid-template-columns: 25% 55% ;
+    gap: 100px;
+    
+  }
+  
+  .headshot2 {
+      width: 400px;
+      height: 400px;
+      padding-top: 200px;
+    }
+h6 { 
+    font-size: 50px;
+}
+
+
